@@ -85,7 +85,7 @@ PKG_ID="ch.ethz.mac.pkg.${PRODUCT}.${PKG_LANGUAGE}"
 # https://www.microsoft.com/Licensing/servicecenter/default.aspx
 # Attention: You need a login and a valid contract with Microsoft!
 
-Serializer="Microsoft_Office_2019_VL_Serializer.pkg"
+Serializer="Microsoft_Office_2019_VL_Serializer)_Universal.pkg"
 
 LICENSE_DIR="${EXE_DIR}/volume_license"				
 	if [[ -e "${LICENSE_DIR}/${Serializer}" ]]; then
